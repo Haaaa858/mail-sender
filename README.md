@@ -33,5 +33,5 @@ npm run package
 
 ## License
 
-MIT © [Electron React Boilerplate](https://github.com/electron-react-boilerplate)
+MIT © [Mail Sender](https://github.com/baochangliu/mail-sender)
 
