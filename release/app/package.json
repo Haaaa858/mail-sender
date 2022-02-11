@@ -1,0 +1,18 @@
+{
+  "name": "mail-sender",
+  "version": "0.1.0",
+  "description": "财务助手",
+  "main": "./dist/main/main.js",
+  "author": {
+    "name": "liubaochang",
+    "email": "liubaochang@iie.ac.cn",
+    "url": ""
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ts-node/register ../../.erb/scripts/electron-rebuild.js",
+    "link-modules": "node -r ts-node/register ../../.erb/scripts/link-modules.ts",
+    "postinstall": "npm run electron-rebuild && npm run link-modules"
+  },
+  "dependencies": {},
+  "license": "MIT"
+}
